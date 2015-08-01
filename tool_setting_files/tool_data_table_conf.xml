@@ -1,0 +1,81 @@
+<tables>
+    
+    <table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="tool-data/all_fasta.loc" />
+    </table>
+    
+    <table comment_char="#" name="bfast_indexes">
+        <columns>value, dbkey, formats, name, path</columns>
+        <file path="tool-data/bfast_indexes.loc" />
+    </table>
+    
+    <table comment_char="#" name="blastdb_p">
+        <columns>value, name, path</columns>
+        <file path="tool-data/blastdb_p.loc" />
+    </table>
+    
+    <table comment_char="#" name="bwa_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="tool-data/bwa_index.loc" />
+    </table>
+    
+    <table comment_char="#" name="bwa_indexes_color">
+        <columns>value, dbkey, name, path</columns>
+        <file path="tool-data/bwa_index_color.loc" />
+    </table>
+    
+    <table name="indexed_maf_files">
+        <columns>name, value, dbkey, species</columns>
+        <file path="tool-data/maf_index.loc" />
+    </table>
+    
+    <table comment_char="#" name="ngs_sim_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="tool-data/ngs_sim_fasta.loc" />
+    </table>
+    
+    <table comment_char="#" name="perm_base_indexes">
+        <columns>value, name, path</columns>
+        <file path="tool-data/perm_base_index.loc" />
+    </table>
+    
+    <table comment_char="#" name="perm_color_indexes">
+        <columns>value, name, path</columns>
+        <file path="tool-data/perm_color_index.loc" />
+    </table>
+    
+    <table comment_char="#" name="picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="tool-data/picard_index.loc" />
+    </table>
+    
+    <table comment_char="#" name="srma_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="tool-data/picard_index.loc" />
+    </table>
+    
+    <table comment_char="#" name="mosaik_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="tool-data/mosaik_index.loc" />
+    </table>
+    
+    <table comment_char="#" name="twobit">
+        <columns>value, path</columns>
+        <file path="tool-data/twobit.loc" />
+    </table>
+    
+    <table comment_char="#" name="igv_broad_genomes">
+        <columns>name, url, value</columns>
+        <file url="http://igv.broadinstitute.org/genomes/genomes.txt" />
+    </table>
+    <table comment_char="#" name="sailfish_custom_indexes">
+        <columns>value, dbkey, name, path</columns><file path="/galaxy-central/tool-data/sailfish_index.loc" />
+    </table>
+    <table comment_char="#" name="kallisto_indexes">
+        <columns>value, dbkey, name, path</columns><file path="/galaxy-central/tool-data/kallisto_index.loc" />
+    </table>
+    <table comment_char="#" name="bowtie2_indexes">
+        <columns>value, dbkey, name, path</columns><file path="/galaxy-central/tool-data/bowtie2_indices.loc" />
+    </table>
+</tables>

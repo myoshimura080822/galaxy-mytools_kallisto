@@ -1,0 +1,2 @@
+ensembl_mouse	ensembl_mouse	Spike-in mouse cdna_all/Ensembl GRCm38(release-80)	/data/kallisto_index/ensembl_mouse
+ucsc_mouse	ucsc_mouse	Spike-in mouse/UCSC(mm10 refMrna,15-Jun-2015)	/data/kallisto_index/ucsc_mouse
